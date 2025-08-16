@@ -1,6 +1,7 @@
 // components/Contact.tsx
 import React from "react";
 import { Mail, Phone, Linkedin } from "lucide-react";
+import { FaLinkedin } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -55,7 +56,7 @@ const Contact = () => {
                 aria-label="LinkedIn Profile"
                 className="hover:opacity-80 transition"
               >
-                <Linkedin className="text-blue-500 w-8 h-8" />
+                <FaLinkedin className="text-blue-500 w-8 h-8" />
               </a>
             </div>
           </div>
